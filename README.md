@@ -2,7 +2,7 @@
 Simple Chat Bot (Client and Server) based on TCP Protpcol. 
 I implement this program to understand how TCP based networks work. 
 With this program, even if LINE, Messenger, Whats App and all the other messenger app are down, I can contact with my mates lol
-This chat bot is based on some basic primitives below and I modified some promitive for better usability;
+This chat bot is based on some basic primitives below and I modified some promitive for the better usability;
   - HELLO-FROM "name"\n -> "name"\n
   - WHO\n -> !who
   - !quit to leave the chat room
