@@ -83,7 +83,7 @@ def receive():
             client, address = s.accept()
             print('Connected with {}'.format(str(address)))
             msg = client.recv(1024).decode(format)
-            if len(usernames) == 3:
+            if len(usernames) == 60:
                 print("Over capacity.")
                 client.sendall('BUSY\n'.encode(format))
             else: 
